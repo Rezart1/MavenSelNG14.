@@ -1,0 +1,24 @@
+
+
+
+each project will have three things:
+1- group ID --usually is the domain name reversed (com.amazon), yoll.io->io.yoll
+2- ArtifactID -- is the project name
+3- version -- version can be 2 things; SNAPSHOT and simple version as 1.0.0 or 2.0.0
+SNAPSHOT means it is under development
+-pure version means it is deployed
+
+Maven works this way:
+when you installed maven on your computer it autmatically created a
+hidden folder on our computer. and is called .m2
+This folder/repository will contain all the tool used for maven projects
+When you add a new tool to your pom.xml, what really happens:
+-- maven will scan the m2 folder to see if there is already such tool
+--if there is taht tool on you comp it will just use it
+--ift the tool is not found it will go to internet (central maven repository) and downloaded
+Always you need also tools and materials to build the house: first check on your shop (m2 folder in your computer)
+and see if you have all needed tools(dependencies an jar files).
+If not you go to home depot and buy some tools and materials (maven repository website).
+You start building and then you need the inspection guy to check if everything is under the code.
+If all set you're good to rent the apartments (deploy)
+Maven cycles:

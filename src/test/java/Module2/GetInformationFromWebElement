@@ -1,0 +1,111 @@
+Get Information From Web Elements
+
+- What is the essential goal of the testing?
+  Testing is conducted to ensure that the application(product)
+  works as expected by defined requirements and specificatiioins.
+
+- Verify - (unit test dev) - done by devs
+Verification ensures that a product is designed/developed correctly
+
+Login Form:
+Username Inputbox - verify username inputbox is present, verify that username allows 5-12 chars
+Password Inputbox - verify if password inpubox is present
+Login Button - verify that login button is present
+
+- Validate
+Validation ensures that a product works as intended/expected
+
+Validation is more about the user flow
+Validate that user can login to the application
+
+Login Form:
+Username Inputbox
+Password Inputbox
+Login Button
+
+Given user lands on login page
+When user enters valid username
+And user enters valid password
+And clicks login button
+Then user shouild succssfully login to the application
+
+---------------------------------------------------------------------
+
+- Now we need to understand how can we do it manually.
+  How can we verify elements.
+
+Agenda:
+- How to verify if an element is present on page and html
+- How do we make sure that an element is displayed to the user
+- How do we verify that an elemeent has an expected content/value in it
+- How do we verify that an element has some specific attributes
+- How do we verify the look of the elements / design / css
+
+---------------------------------------------------------------------
+- How to verify if an element is present on page and html
+Q. When we need to verify if an element is present or not:
+	1. UI Consistency.
+	2. Feature availability.
+	3. Conditional display of elements.
+	4. Content accurace.
+
+Summary:
+The idea here is simple. Some elements can be present or not. The presense is directly related to presense in html.
+If we want to verify that an element is present by using findElement we will find ourselves run into an exception: NoSuchElementException if not found.
+The problem is that exception will stop the execution at that line and will not proceed with other lines of code.
+
+So, a better approach to verify if an element is present is to use findElements that will return you a List of web elements.
+The trick here is that the findElements does not throw an exception where there are no elements located.
+The List returned will simply be empty.
+
+Considering this we can use the list size to make the verification.
+If there are more than 0 elements in the list means the element is present
+Otherwise, if list size if 0 then the element is not present.
+
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+- How do we make sure that an element is displayed to the user
+
+There are couple of way to make an html element that is present on the html file but not displayed to the user.
+Ways to not display an element
+- style="display:none;"
+- style="visibility:hidden;"
+- style="opacity:0;"
+- hidden
+
+In selenium we have a method called isDisplayed() that will tell you true or false based on element if displayed.
+
+---------------------------------------------------------------------
+- How do we make sure that an element is enabled - means we can interact with it.
+In selenium we have a method isEnabled() that tells you true or false, based on element if it is intectable or not
+
+
+- isEnabled() is about interacting with element you need. If you can it will return true, if you cannot it will return false.
+
+---------------------------------------------------------------------
+
+
+Sometimes the cssSelectors might returns more than one occurences. The reason if that the DOM, displayus you the java script code if there is any.
+
+In java script, and css to apply or refer to any element in the html they use css selectors. That's why we see them in code itself.
+
+So, if there are some logics involved with the element you are trying to locate it will show up as well.
+1:25
+---------------------------------------------------------------------
+
+- How do we verify that an elemeent has an expected content/value in it
+
+In selenium we have a method called getText() from WebElement.
+
+There are broadly 2 ways:
+
+1. Locate an element by it's text/content
+-> Find the button that has text in it as LOGIN. //button[text() = 'LOGIN']
+
+2. Sometimes we want to verify if the content in a specific element is as expected.
+The error message shoud be as: Username required.
+
+WebElement forgotPasswordLink = driver.findElement(By.cssSelector("#forgotPasswordLink a"));
+String actualText = forgotPasswordLink.getText();
+
+---------------------------------------------------------------------

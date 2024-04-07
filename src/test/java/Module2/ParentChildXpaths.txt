@@ -1,0 +1,76 @@
+<!-- Moving to next/direct generation - traverse forward - go to children element -->
+
+<div id="parentDiv1">
+  <span class="span">Hello, World!</span>
+  <span class="childSpan">Hello, World!</span>
+  <span name="seleniumSpan">Selenium Class!</span>
+</div>
+<div id="parentDiv2">
+  <span class="childSpan">Hello, Students!</span>
+</div>
+
+
+xpath for span in second div
+-> //div[@id = 'parentDiv2']/span
+
+xpath for first span in first div
+-> //div[@id = 'parentDiv1']/span[@class = 'childSpan']
+
+Note: The index in xpath starts with 1
+-> //div[@id = 'parentDiv1']/span[1]
+
+--------------------------------------
+The linkText are working specifically with links aka <a> tags
+By.linkText("Selenium Class!")
+By.partialLinkText("Selenium Class!")
+
+
+
+
+
+12:01
+<!-- Travese forward by skipping generations -->
+
+<div id="parentDiv1">
+  <span class="childSpan">Hello, World!</span>
+  <span name="seleniumSpan">
+    Selenium Class!
+    <div class="firstGen">
+      First Generation
+      <div class="secondGen">
+        Second Generation
+        <div class="thirdGen">
+          Third Generation
+          <p class="finalGen">Final Generation</p>
+        </div>
+      </div>
+    </div>
+  </span>
+</div>
+<div id="parentDiv2">
+  <span class="childSpan">Hello, Students!</span>
+  <p class="finalGen">Final Generation</p>
+</div>
+
+
+//div[@id = 'parentDiv1']/span[@name = 'seleniumSpan']/div/div/div/p
+//div[@id = 'parentDiv1']//p[@class = 'finalGen']
+Note:
+1 forward slash navigates to children tag directly
+2 forward slashes navigate to any children, grand children, grand gran ... (skips generations)
+(edited)
+12:02
+<!-- Moving backwards -->
+<div class="new_class">
+  <p id="childPara1">Welcome!</p>
+</div>
+<div class="new_class">
+  <p id="childPara2">Bye!</p>
+</div>
+
+
+- Locate the first element div
+//p[@id = 'childPara1']/..
+
+
+/.. -> go to parent tag

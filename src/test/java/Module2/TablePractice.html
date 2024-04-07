@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        .header_color {
+            background-color: grey;
+        }
+
+    </style>
+</head>
+<body>
+<table>
+    <thead class="header_color">
+    <tr>
+        <th>Number</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>John</td>
+        <td>Doe</td>
+        <td>123 Street Hollywood, CA</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Jane</td>
+        <td>Doe</td>
+        <td>123 Street Hollywood, CA</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Omar</td>
+        <td>Ramo</td>
+        <td>555 Main Ave, NY</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+
+--------------------------------------------------------------------------
+
+- BIG IDEA: There can be more tricky web elemnst that are harder to locate. It can be due to many reasons, like absence of attributes, complex layouts, generic tab names etc... It get's even more tricky when the web elements are dynamic that are changing based on user decisions/actions.
+We need a reliable strategy how to deal with those elements.
+
+Strategies to use:
+
+1. Using text() function can help to identify an element by the content of it.
+ex: <div>Hello</div> -> //div[text() = 'Hello']
+
+2. Using contains() function that can match a part of the value we are reffring to. We can use the values of the attributes or even text of the element. The contains() function will take two arguments -> contains(@attribute, 'value') or contains(text(), 'value')
+
+3. Using and - or logical operators to combine criterial for better filtering
+//input[@name = 'sampleInput' and @class = 'differentClass']
+//input[@type = 'username' or @type = 'password']
+
+4. Using starts-with() function to get elemnts whereas some attributes or text have a specific prefix.
+//input[starts-with(@id, 'user')]
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+BIG IDEA: Web Tables are needed for organizing the information in table like format
+
+In html when used good semantics, a table with be created with following tags:
+<table></table> - forms a table
+<thead></thead> - forms the heading of a table usually with column names
+<tbody></tbody> - forms the body of the table where actual information is stored
+<tfoot></tfoot> - forms the footer of a table where additional information can be placed
+<tr></tr> - forms a table row
+<th></th> - forms a cell in row with data in header section
+<td></td> - forms a cell in row with data in body section
+
+--------------------------------------------------------------------------

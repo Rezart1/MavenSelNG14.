@@ -1,0 +1,82 @@
+# findElement() vs findElements()
+
+Previously we worked mainly with single elements.
+However, sometimes we will need to get a list/collection of elements at once.
+
+The findElements() returns you back a List of web elements
+
+Differences between these methods:
+- findElement():
+  - It throws an exception when the locator is wrong
+  - It will pick the first element if you give a locator with multiple results
+  - It will return a WebElement
+
+- findElements():
+  - It doesn't throw any error when no elements found, it will be simply an empty List
+  - The whole idea of findElements is to locate multiple elements at once
+  - It will return you a List<WebElements>
+  -------------------------------------------------------
+  Java Data Types:
+
+  2 Groups of Data Types in Java:
+  Primitives  -  Non - Primitives
+
+  Pr:
+  byte
+  short
+  int
+  long
+  float
+  double
+  bool
+  char
+
+  Non - Pr:
+  String
+  Array
+  Used Defined Types
+
+  Used Defined Types:
+   In java when you create a new class(a blueprint for objects) this is literally creating new data type that is custom
+   If you create a Cat class
+   Cat cat = new Cat()
+   Dog myDog = new Dog()
+
+  Selenium? - Is library (in is someones else code that we can use)
+
+  Selenium Devs created a new class and called WebElement
+  User defined class - a new Data Type
+
+
+
+  XPATH:
+
+  There are two types of Xpath:
+  Absolute
+  Relative
+
+  The usage:
+  Locators in selenium:
+  By.id, By.name, By.className, By.tagName, By.linkText, By.partialLinkText, By.xpath("")
+
+  WebElement element = driver.findElement(By.xpath(""));
+
+
+  <div class = "container">
+      <p> Hello Students! </p>
+      <p> Welcome to Selenium! </p>
+  </div>
+
+  //div[@class = 'container']/p[1]
+
+  Syntax of the xpath:
+  //tagName[@attributeName = 'attributeValue']
+  // - two forward slashes mean that we jump into html at any point
+  tagName - is the tag you target, this can be replaced by *
+     - It better to use specific tag since it has better performance
+  [] - are optional, here we can place what is the exact criteria to the element we are looking for
+  @ - at sign points to the attributes of the tag
+  attributeName - will the attribute you want to use, like id, name, class, type, class-id
+  = - the equality sign, despite in programming languages we use ==, here in xpath to check the value if equal we will use single equal sign
+  'attributeValue' - the value that we expect the attribute to have
+
