@@ -4,60 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58fe07f6-4aec-47cd-9173-22b1ef0efae5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/Yoll/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkModule3/DemoAutomation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkModule3/DropDownHomeWork1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/DemoWebShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/DynamicTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/Homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/MagentoLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/RegistrationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module1/BrowserMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module1/GetPageInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/ArrayListPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/BestBuyPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/DynamicTablesOption2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/GetInformationFromWebElement" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/Guru99Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/KnowledgeTransfer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/MultipleElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/ParentChildXpaths.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/Practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/PracticeAccessibilityWebPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/PracticeXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/RecapTablePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/SauceDemoPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/SeleniumLocators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/TablePractice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/VerifyElementAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/VerifyIfDisplayedAndEnabled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/VerifyIfPresent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/WebTablePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module3/DemoQAPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module3/MultiSelectDropdownPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module3/PracticeKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module3/SelectDropdownPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module3/SelectDropdownPractice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module3/SelectDropdownPractice3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tutoring/TutoringApril3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tutoringPractice/AmericanExpressCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tutoringPractice/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tutoringPractice/CustomerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tutoringPractice/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tutoringPractice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tutoringPractice/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tutoringPractice/PlatinumAmericanExpressCustomer.java" afterDir="false" />
-    </list>
+    <list default="true" id="58fe07f6-4aec-47cd-9173-22b1ef0efae5" name="Changes" comment="Init commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +30,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/applemac2/IdeaProjects/MavenSelNG14./src/test/java/tutoringPractice",
     "onboarding.tips.debug.path": "/Users/applemac2/IdeaProjects/MavenSelNG14./src/main/java/io/Yoll/Main.java",
@@ -146,7 +94,19 @@
       <option name="presentableId" value="Default" />
       <updated>1712461865643</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <created>1712462881067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712462881067</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
