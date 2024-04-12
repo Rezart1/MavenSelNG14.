@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58fe07f6-4aec-47cd-9173-22b1ef0efae5" name="Changes" comment="Init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/DynamicTable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Module3/CustomDropdowns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/intro/BadApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/intro/BetterApproachTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/AssertionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/OrangeHrmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/DynamicTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/DynamicTables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +62,13 @@
       <recent name="Tutoring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BrowserMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Module1.BrowserMethods" />
+  <component name="RunManager" selected="Application.DynamicTable2">
+    <configuration name="DynamicTable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework.DynamicTable2" />
       <module name="MavenSelNG14." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Module1.*" />
+          <option name="PATTERN" value="Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,51 +76,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoQAPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Module3.DemoQAPractice" />
+    <configuration name="AssertionTest.testFileProcessing" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSelNG14." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Module3.*" />
+          <option name="PATTERN" value="testNGBasics.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.AssertionTest" />
+      <option name="METHOD_NAME" value="testFileProcessing" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.Yoll.Main" />
+    <configuration name="AssertionTest.verifyConditionFalse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSelNG14." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.Yoll.*" />
+          <option name="PATTERN" value="testNGBasics.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.AssertionTest" />
+      <option name="METHOD_NAME" value="verifyConditionFalse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Module2.MultipleElements" />
+    <configuration name="AssertionTest.verifyDbConnection" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSelNG14." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Module2.*" />
+          <option name="PATTERN" value="testNGBasics.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.AssertionTest" />
+      <option name="METHOD_NAME" value="verifyDbConnection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrangeHrmTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSelNG14." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNGBasics.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.OrangeHrmTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MultipleElements" />
-        <item itemvalue="Application.DemoQAPractice" />
-        <item itemvalue="Application.BrowserMethods" />
+        <item itemvalue="Application.DynamicTable2" />
+        <item itemvalue="TestNG.OrangeHrmTest" />
+        <item itemvalue="TestNG.AssertionTest.verifyConditionFalse" />
+        <item itemvalue="TestNG.AssertionTest.verifyDbConnection" />
+        <item itemvalue="TestNG.AssertionTest.testFileProcessing" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712463608853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Init commit">
+      <created>1712463990270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712463990270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

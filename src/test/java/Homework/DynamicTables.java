@@ -69,7 +69,7 @@ public class DynamicTables {
                     String value = driver.findElement(By.xpath(getEmailXpath)).getText();
                     System.out.println(fName + " " + lName + " email: " + value);
                 } else {
-                    System.out.println("Nu such record found in table.");
+                    System.out.println("No such record found in table.");
                 }
             }
 
