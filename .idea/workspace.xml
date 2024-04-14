@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58fe07f6-4aec-47cd-9173-22b1ef0efae5" name="Changes" comment="Init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/DynamicTable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Module3/CustomDropdowns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/intro/BadApproach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/intro/BetterApproachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/AssertionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/OrangeHrmTest.java" afterDir="false" />
+    <list default="true" id="58fe07f6-4aec-47cd-9173-22b1ef0efae5" name="Changes" comment="Hard Assert code examples">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/DynamicTables2Option2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/CheckAnnotationsAndOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/DependencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/HRMLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/PriorityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/SoftAssertTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/DynamicTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/DynamicTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/OrangeHrmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/OrangeHrmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,8 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/applemac2/IdeaProjects/MavenSelNG14./src/main/java/io/Yoll/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.root&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -62,7 +61,7 @@
       <recent name="Tutoring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DynamicTable2">
+  <component name="RunManager" selected="TestNG.PriorityTest">
     <configuration name="DynamicTable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.DynamicTable2" />
       <module name="MavenSelNG14." />
@@ -76,56 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertionTest.testFileProcessing" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicTables2Option2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework.DynamicTables2Option2" />
       <module name="MavenSelNG14." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNGBasics.practice.*" />
+          <option name="PATTERN" value="Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
-      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.AssertionTest" />
-      <option name="METHOD_NAME" value="testFileProcessing" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertionTest.verifyConditionFalse" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenSelNG14." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testNGBasics.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
-      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.AssertionTest" />
-      <option name="METHOD_NAME" value="verifyConditionFalse" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertionTest.verifyDbConnection" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenSelNG14." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testNGBasics.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
-      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.AssertionTest" />
-      <option name="METHOD_NAME" value="verifyDbConnection" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,13 +105,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrangeHrmTest.verifyUrlAfterSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSelNG14." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNGBasics.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.OrangeHrmTest" />
+      <option name="METHOD_NAME" value="verifyUrlAfterSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriorityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSelNG14." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNGBasics.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.PriorityTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PriorityTest" />
+        <item itemvalue="Application.DynamicTables2Option2" />
+        <item itemvalue="TestNG.OrangeHrmTest.verifyUrlAfterSuccessfulLogin" />
         <item itemvalue="Application.DynamicTable2" />
         <item itemvalue="TestNG.OrangeHrmTest" />
-        <item itemvalue="TestNG.AssertionTest.verifyConditionFalse" />
-        <item itemvalue="TestNG.AssertionTest.verifyDbConnection" />
-        <item itemvalue="TestNG.AssertionTest.testFileProcessing" />
       </list>
     </recent_temporary>
   </component>
@@ -187,12 +180,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712463990270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hard Assert code examples">
+      <created>1712882730013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712882730013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
+    <MESSAGE value="Hard Assert code examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hard Assert code examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -201,6 +213,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/io/Yoll/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Homework/DynamicTable2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
