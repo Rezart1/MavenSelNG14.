@@ -1,7 +1,6 @@
-package testNGBasics.practice;
+package testngBasics.practice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import org.testng.asserts.SoftAssert;
 
 public class SoftAssertTest {

@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58fe07f6-4aec-47cd-9173-22b1ef0efae5" name="Changes" comment="Hard Assert code examples">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/DynamicTables2Option2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/CheckAnnotationsAndOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/DependencyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/HRMLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/PriorityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/SoftAssertTest.java" afterDir="false" />
+    <list default="true" id="58fe07f6-4aec-47cd-9173-22b1ef0efae5" name="Changes" comment="TestMethods added: BeforeMethod, AfterMethod, and Test parameters: Priority order, enabled">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/OrangeHrmJobTitleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/runClasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/runExcludeMethods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/runMethods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/OrangeHrmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/OrangeHrmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/intro/BadApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/intro/BadApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/intro/BetterApproachTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/intro/BetterApproachTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/AssertionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/AssertionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/CheckAnnotationsAndOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/CheckAnnotationsAndOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/DependencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/DependencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/HRMLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/HRMLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/OrangeHrmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/OrangeHrmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/PriorityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/PriorityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNGBasics/practice/SoftAssertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/SoftAssertTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +69,7 @@
       <recent name="Tutoring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PriorityTest">
-    <configuration name="DynamicTable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework.DynamicTable2" />
-      <module name="MavenSelNG14." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.OrangeHrmJobTitleTest">
     <configuration name="DynamicTables2Option2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.DynamicTables2Option2" />
       <module name="MavenSelNG14." />
@@ -88,35 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrangeHrmTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OrangeHrmJobTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSelNG14." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNGBasics.practice.*" />
+          <option name="PATTERN" value="testngBasics.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
-      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.OrangeHrmTest" />
+      <option name="PACKAGE_NAME" value="testngBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testngBasics.practice.OrangeHrmJobTitleTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrangeHrmTest.verifyUrlAfterSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenSelNG14." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testNGBasics.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testNGBasics.practice" />
-      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.OrangeHrmTest" />
-      <option name="METHOD_NAME" value="verifyUrlAfterSuccessfulLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -127,13 +104,33 @@
       <module name="MavenSelNG14." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNGBasics.practice.*" />
+          <option name="PATTERN" value="testngBasics.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testNGBasics.practice" />
-      <option name="MAIN_CLASS_NAME" value="testNGBasics.practice.PriorityTest" />
+      <option name="MAIN_CLASS_NAME" value="testngBasics.practice.PriorityTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/applemac2/IdeaProjects/MavenSelNG14./src/test/resources/configXml/runMethods.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSelNG14." />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/configXml/runMethods.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/applemac2/IdeaProjects/MavenSelNG14./src/test/resources/configXml/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSelNG14." />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/configXml/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OrangeHrmJobTitleTest" />
+        <item itemvalue="TestNG./Users/applemac2/IdeaProjects/MavenSelNG14./src/test/resources/configXml/runMethods.xml" />
+        <item itemvalue="TestNG./Users/applemac2/IdeaProjects/MavenSelNG14./src/test/resources/configXml/testng.xml" />
         <item itemvalue="TestNG.PriorityTest" />
         <item itemvalue="Application.DynamicTables2Option2" />
-        <item itemvalue="TestNG.OrangeHrmTest.verifyUrlAfterSuccessfulLogin" />
-        <item itemvalue="Application.DynamicTable2" />
-        <item itemvalue="TestNG.OrangeHrmTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712882730013</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TestMethods added: BeforeMethod, AfterMethod, and Test parameters: Priority order, enabled">
+      <created>1713115674438</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713115674438</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
     <MESSAGE value="Hard Assert code examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hard Assert code examples" />
+    <MESSAGE value="TestMethods added: BeforeMethod, AfterMethod, and Test parameters: Priority order, enabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestMethods added: BeforeMethod, AfterMethod, and Test parameters: Priority order, enabled" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

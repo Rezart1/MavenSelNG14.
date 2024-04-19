@@ -1,4 +1,4 @@
-package testNGBasics.intro;
+package testngBasics.intro;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
