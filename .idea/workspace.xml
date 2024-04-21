@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58fe07f6-4aec-47cd-9173-22b1ef0efae5" name="Changes" comment="TestBase class added. Order of execution of annotations">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/intro/DifferentPackageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/GroupingPracticeOneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/GroupingPracticeTwoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/smoke.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/SouceDemoLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/classExecutionOrder.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngBasics/practice/HRMLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/HRMLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configXml/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configXml/smoke.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +55,14 @@
       <recent name="$PROJECT_DIR$/src/test/java/Module1" />
       <recent name="$PROJECT_DIR$/src/test/java/HomeWorkModule3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/configXml" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Tutoring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/applemac2/IdeaProjects/MavenSelNG14./src/test/resources/configXml/smoke.xml">
+  <component name="RunManager" selected="TestNG.HRMLoginTest.testLoginWithInvalidCredentials">
     <configuration name="VerifyingTabVisualFeedback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.VerifyingTabVisualFeedback" />
       <module name="MavenSelNG14." />
@@ -105,17 +107,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyingTabVisualFeedback.loginORM" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HRMLoginTest.testLoginWithInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSelNG14." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.*" />
+          <option name="PATTERN" value="testngBasics.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.VerifyingTabVisualFeedback" />
-      <option name="METHOD_NAME" value="loginORM" />
+      <option name="PACKAGE_NAME" value="testngBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testngBasics.practice.HRMLoginTest" />
+      <option name="METHOD_NAME" value="testLoginWithInvalidCredentials" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HRMLoginTest.testLoginWithInvalidCredentials" />
         <item itemvalue="TestNG./Users/applemac2/IdeaProjects/MavenSelNG14./src/test/resources/configXml/smoke.xml" />
         <item itemvalue="TestNG./Users/applemac2/IdeaProjects/MavenSelNG14./src/test/resources/regression.xml" />
         <item itemvalue="Application.VerifyingTabVisualFeedback" />
         <item itemvalue="TestNG.AssertionsTest.verifyIfNull" />
-        <item itemvalue="TestNG.VerifyingTabVisualFeedback.loginORM" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713710528013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TestBase class added. Order of execution of annotations">
+      <created>1713713272549</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713713272549</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TestBase class added. Order of execution of annotations">
+      <created>1713713513210</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713713513210</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
