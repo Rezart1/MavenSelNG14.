@@ -8,7 +8,7 @@
                 <include name="smoke"/>
             </run>
         </groups>
-
+        <!--        Source of the test case-->
         <packages>
             <package name="testngBasics.practice"/>
             <package name="testngBasics.intro"/>
